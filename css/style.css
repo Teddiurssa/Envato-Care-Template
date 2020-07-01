@@ -1,0 +1,243 @@
+/*----------------Base Styles ---------------------*/
+
+
+
+body {
+    font-family: 'Inter', sans-serif !important;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*----------------Nav Bar Styles ---------------------*/
+.navbar {
+    align-items: center;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0, 1);
+}
+
+/*----------------Header/Hero Styles ---------------------*/
+header .row {
+    margin-right: -15px;
+    margin-left: -15px;
+    color: #4F4F4F;
+}
+
+.header-title {
+    color: #4F4F4F;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 18px;
+    width: 75%;
+}
+
+.header button {
+    border-radius: 3px;
+    width: 45%;
+    font-size: 1em;
+    background: #0146C0;
+}
+
+.background-image {
+    background: url(../img/doctor.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 652px;
+    margin: 0;
+}
+
+/*----------------About Styles ---------------------*/
+
+#about .line {
+    border: 4px solid #3774DF;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #3774DF;
+    margin: 0 0 41px 15px;
+}
+
+#about h3 {
+    padding-left: 15px;
+}
+
+#about span {
+    color: #0146C0;
+}
+
+#about p {
+    font-size: 24px;
+    margin-bottom: 70px;
+}
+
+/*----------------Service Styles ---------------------*/
+
+#services .line {
+    border: 4px solid #3774DF;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #3774DF;
+    margin: 0 0 41px 15px;
+    width: 90px;
+}
+
+#services h2 {
+    font-size: 36px;
+}
+
+#services img {
+    border-radius: 7px;
+}
+
+#services .card {
+    border-radius: 7px;
+    box-shadow: 0px 4px 4px rgba(9, 44, 76, 0.13);
+}
+
+#services h4 {
+    font-size: 24px;
+    color: #0146C0;
+}
+
+#services p {
+    font-size: 20px;
+}
+
+/*----------------Product Styles ---------------------*/
+#products h2 {
+    margin-top: 60px;
+    font-size: 36px;
+}
+
+#products button {
+    color: rgba(168, 170, 170, 0.78);
+    font-size: 14px;
+    text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.32);
+}
+
+#products .line {
+    border: 4px solid #3774DF;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #3774DF;
+    margin: 0 0 30px 15px;
+    width: 90px;
+}
+
+#products h4 {
+    font-size: 20px;
+}
+
+#products p {
+    font-size: 20px;
+    color: #828282;
+}
+
+#products div .card-link {}
+
+#products .addCart {
+    border-radius: 50%;
+    background-color: #3774DF;
+    color: #fff;
+    font-size: 18px;
+}
+
+#products .card {
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    margin-top: 37px;
+}
+
+#products a {
+    margin-top: 60px;
+    margin-bottom: 140px;
+    background: #0146C0;
+    box-shadow: 0px 4px 9px rgba(33, 98, 211, 0.13);
+    border-radius: 8px;
+    height: 55px;
+}
+
+
+/*----------------Cart Styles ---------------------*/
+#cart .line {
+    border: 4px solid #3774DF;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #3774DF;
+    margin: 0 0 30px 15px;
+    width: 90px;
+}
+
+#cart .cart-head {
+    font-size: 18px;
+}
+
+
+
+#cart .cart-row .price {
+    color: #828282;
+    font-size: 20px;
+}
+
+#cart .cart-row .remove a {
+    font-size: 20px;
+    color: rgba(255, 23, 23, 0.6);
+}
+
+#cart .cart-row .remove {
+    font-size: 10px;
+    color: #BDBDBD
+    
+}
+
+
+#cart .cart-row {
+    background: #FBFBFB;
+    border-radius: 14px;
+    margin-bottom: 37px;
+}
+
+#cart .addition {
+    background: #2162D3;
+    border-radius: 0px 10px 10px 0px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+
+#cart .minus {
+    background: #2162D3;
+    border-radius: 10px 0px 0px 10px;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+
+#cart .amount {
+    font-size: 17px;
+    line-height: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+/*----------------Checkout Styles ---------------------*/
+
+
+
+/*----------------Contact Form Styles ---------------------*/
+
+/*----------------Footer Styles ---------------------*/
