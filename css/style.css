@@ -1,6 +1,8 @@
 /*----------------Base Styles ---------------------*/
-
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Inter', sans-serif !important;
@@ -14,8 +16,20 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    width: 100vw;
+    overflow: auto;
 }
 
+#home,
+#about,
+#services,
+#products,
+#cart,
+#checkout,
+#contact {
+    margin-left: 60px;
+    margin-right: 60px;
+}
 
 /*----------------Nav Bar Styles ---------------------*/
 .navbar {
@@ -23,12 +37,13 @@ body {
     background: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 10px 24px rgba(0, 0, 0, 0, 1);
+    padding-left: 80px;
+    padding-right: 45px;
 }
 
 /*----------------Header/Hero Styles ---------------------*/
 header .row {
-    margin-right: -15px;
-    margin-left: -15px;
+
     color: #4F4F4F;
 }
 
@@ -126,7 +141,15 @@ header .row {
     color: rgba(168, 170, 170, 0.78);
     font-size: 14px;
     text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.32);
+    background: rgba(240, 240, 240, 0.28);
+    border-radius: 14px;
 }
+
+#products button:hover {
+    background: #0146C0;
+    color: #fff;
+}
+
 
 #products .line {
     border: 4px solid #3774DF;
@@ -145,8 +168,7 @@ header .row {
     color: #828282;
 }
 
-#products div .card-link {}
-
+#products 
 #products .addCart {
     border-radius: 50%;
     background-color: #3774DF;
@@ -198,14 +220,13 @@ header .row {
 #cart .cart-row .remove {
     font-size: 10px;
     color: #BDBDBD
-    
 }
 
 
 #cart .cart-row {
     background: #FBFBFB;
     border-radius: 14px;
-    margin-bottom: 37px;
+    margin: 0 30px 37px 30px;
 }
 
 #cart .addition {
@@ -231,13 +252,116 @@ header .row {
     width: 40px;
 }
 
+#cart .cart-total {
+    background: #FBFBFB;
+    border-radius: 14px;
+    width: 140px;
+    height: 67px;
+}
 
+#cart .box {
+    background-color: #2162D3;
+    border-radius: 8px;
+    width: 56px;
+    height: 41px;
+}
+
+#cart .add-color {
+    color: #2162D3;
+    margin: 0 10px 0 0;
+}
 
 
 /*----------------Checkout Styles ---------------------*/
+.order-btn {
+    background: #0146C0;
+    box-shadow: 0px 4px 9px rgba(33, 98, 211, 0.13);
+    border-radius: 8px;
+    margin-bottom: 143px;
+}
+
+#checkout h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+#checkout label {
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+#checkout ::placeholder {
+    color: #BDBDBD;
+    font-size: 16px;
+}
+
+#checkout select {
+    color: #BDBDBD;
+    font-size: 16px;
+}
+
+#checkout input,
+#checkout select,
+#checkout textarea {
+    border: 1px solid #0146C0;
+}
 
 
+/*---------Contact Styles------*/
+.contact-section button {
+    background-color: #0146C0;
+}
 
-/*----------------Contact Form Styles ---------------------*/
+.contact-section input,
+.contact-section textarea {
+    border: 1px solid #0146C0;
+    margin-bottom: 37px;
+}
 
-/*----------------Footer Styles ---------------------*/
+#contact h2 {
+    font-size: 36px;
+    color: #4F4F4F;
+    margin-bottom: 30px;
+}
+
+#contact::placeholder {
+    color: #BDBDBD;
+    font-size: 16px;
+}
+
+#contact .row {
+    margin-bottom: 67px;
+}
+
+/*---------Footer Styles------*/
+#footer {
+    background-color: rgba(1, 70, 192, 0.87);
+    width: 100vw;
+    overflow: auto;
+}
+
+#footer .row {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#footer h3 {
+    margin-top: 50px;
+}
+
+#footer p {
+    margin-bottom: 12px;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0 48px 0 0;
+}
+
+#footer span {
+    color: #B4CEFD;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.19);
+}
