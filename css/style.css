@@ -24,8 +24,7 @@ body {
 #about,
 #services,
 #products,
-#cart,
-#checkout,
+#testimonials,
 #contact {
     margin-left: 60px;
     margin-right: 60px;
@@ -168,13 +167,6 @@ header .row {
     color: #828282;
 }
 
-#products 
-#products .addCart {
-    border-radius: 50%;
-    background-color: #3774DF;
-    color: #fff;
-    font-size: 18px;
-}
 
 #products .card {
     box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
@@ -191,9 +183,12 @@ header .row {
     height: 55px;
 }
 
+/*---------Testimonial Styles------*/
+#testimonials h2 {
+    font-size: 36px;
+}
 
-/*----------------Cart Styles ---------------------*/
-#cart .line {
+#testimonials .line {
     border: 4px solid #3774DF;
     border-radius: 8px 8px 0px 0px;
     background-color: #3774DF;
@@ -201,111 +196,52 @@ header .row {
     width: 90px;
 }
 
-#cart .cart-head {
-    font-size: 18px;
-}
 
-
-
-#cart .cart-row .price {
-    color: #828282;
-    font-size: 20px;
-}
-
-#cart .cart-row .remove a {
-    font-size: 20px;
-    color: rgba(255, 23, 23, 0.6);
-}
-
-#cart .cart-row .remove {
-    font-size: 10px;
-    color: #BDBDBD
-}
-
-
-#cart .cart-row {
-    background: #FBFBFB;
+#testimonials .slider-frame {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
-    margin: 0 30px 37px 30px;
+    height: 400px;
+   
 }
 
-#cart .addition {
-    background: #2162D3;
-    border-radius: 0px 10px 10px 0px;
-    color: #fff;
-    height: 40px;
-    width: 40px;
+#testimonials .controls {
+ background-color: #0146C0;
+    border-radius: 25px;
+    width: 38px;
+    height:38px;
+}
+#testimonials span {
+     background-color: #0146C0;
 }
 
-#cart .minus {
-    background: #2162D3;
-    border-radius: 10px 0px 0px 10px;
-    color: #fff;
-    height: 40px;
-    width: 40px;
+#testimonials span:hover {
+    background: rgba(1, 70, 192, 0.1);
 }
 
-#cart .amount {
-    font-size: 17px;
-    line-height: 20px;
-    height: 40px;
-    width: 40px;
+#testimonials a:hover  {
+  background: rgba(1, 70, 192, 0.1);
 }
-
-#cart .cart-total {
-    background: #FBFBFB;
-    border-radius: 14px;
-    width: 140px;
-    height: 67px;
+#testimonials .arrows .active:hover {
+    background: rgba(1, 70, 192, 0.1);
 }
-
-#cart .box {
-    background-color: #2162D3;
-    border-radius: 8px;
-    width: 56px;
-    height: 41px;
-}
-
-#cart .add-color {
-    color: #2162D3;
-    margin: 0 10px 0 0;
-}
-
-
-/*----------------Checkout Styles ---------------------*/
-.order-btn {
+#testimonials .arrows .active {
+    background-color: #0146C0;
+    border-radius: 25px;
+    width: 5%;
+  }
+#testimonials .arrows li:hover {
     background: #0146C0;
-    box-shadow: 0px 4px 9px rgba(33, 98, 211, 0.13);
-    border-radius: 8px;
-    margin-bottom: 143px;
 }
 
-#checkout h2 {
-    font-size: 36px;
-    margin-bottom: 25px;
+#testimonials .arrows li {
+    background: rgba(196, 196, 196, 0.27);
+    border-radius: 25px;
+    width: 5%;   
 }
-
-#checkout label {
-    font-size: 14px;
-    color: #BDBDBD;
+#testimonials .containter {
+    height: 627px;
 }
-
-#checkout ::placeholder {
-    color: #BDBDBD;
-    font-size: 16px;
-}
-
-#checkout select {
-    color: #BDBDBD;
-    font-size: 16px;
-}
-
-#checkout input,
-#checkout select,
-#checkout textarea {
-    border: 1px solid #0146C0;
-}
-
 
 /*---------Contact Styles------*/
 .contact-section button {
@@ -331,10 +267,13 @@ header .row {
 
 #contact .row {
     margin-bottom: 67px;
+    margin-top: 213px;
+
 }
 
 /*---------Footer Styles------*/
 #footer {
+    position: absolute;
     background-color: rgba(1, 70, 192, 0.87);
     width: 100vw;
     overflow: auto;
