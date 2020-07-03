@@ -8,16 +8,10 @@ body {
     font-family: 'Inter', sans-serif !important;
     margin: 0;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
     background-color: #fff;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 100vw;
-    overflow: auto;
 }
 
 #home,
@@ -30,10 +24,21 @@ body {
     margin-right: 60px;
 }
 
+#testimonials .line,
+#products .line,
+#services .line,
+#about .line {
+    border: 4px solid #3774DF;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #3774DF;
+    margin: 0 0 41px 15px;
+    width: 90px;
+}
+
 /*----------------Nav Bar Styles ---------------------*/
 .navbar {
     align-items: center;
-    background: #ffffff;
+    background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 0px 10px 24px rgba(0, 0, 0, 0, 1);
     padding-left: 80px;
@@ -41,29 +46,10 @@ body {
 }
 
 /*----------------Header/Hero Styles ---------------------*/
-header .row {
-
-    color: #4F4F4F;
-}
-
-.header-title {
-    color: #4F4F4F;
-}
-
-.header h1 {
-    font-size: 48px;
-    font-weight: bold;
-}
-
-.header p {
-    font-size: 18px;
-    width: 75%;
-}
 
 .header button {
     border-radius: 3px;
     width: 45%;
-    font-size: 1em;
     background: #0146C0;
 }
 
@@ -73,72 +59,23 @@ header .row {
     background-position: center;
     background-repeat: no-repeat;
     height: 652px;
-    margin: 0;
 }
 
 /*----------------About Styles ---------------------*/
 
-#about .line {
-    border: 4px solid #3774DF;
-    border-radius: 8px 8px 0px 0px;
-    background-color: #3774DF;
-    margin: 0 0 41px 15px;
-}
-
-#about h3 {
-    padding-left: 15px;
-}
-
-#about span {
-    color: #0146C0;
-}
-
-#about p {
-    font-size: 24px;
-    margin-bottom: 70px;
-}
 
 /*----------------Service Styles ---------------------*/
-
-#services .line {
-    border: 4px solid #3774DF;
-    border-radius: 8px 8px 0px 0px;
-    background-color: #3774DF;
-    margin: 0 0 41px 15px;
-    width: 90px;
-}
-
-#services h2 {
-    font-size: 36px;
-}
-
-#services img {
-    border-radius: 7px;
-}
 
 #services .card {
     border-radius: 7px;
     box-shadow: 0px 4px 4px rgba(9, 44, 76, 0.13);
 }
 
-#services h4 {
-    font-size: 24px;
-    color: #0146C0;
-}
-
-#services p {
-    font-size: 20px;
-}
-
 /*----------------Product Styles ---------------------*/
-#products h2 {
-    margin-top: 60px;
-    font-size: 36px;
-}
 
 #products button {
     color: rgba(168, 170, 170, 0.78);
-    font-size: 14px;
+    font-size: 0.875em;
     text-shadow: 0px 4px 24px rgba(0, 0, 0, 0.32);
     background: rgba(240, 240, 240, 0.28);
     border-radius: 14px;
@@ -148,25 +85,6 @@ header .row {
     background: #0146C0;
     color: #fff;
 }
-
-
-#products .line {
-    border: 4px solid #3774DF;
-    border-radius: 8px 8px 0px 0px;
-    background-color: #3774DF;
-    margin: 0 0 30px 15px;
-    width: 90px;
-}
-
-#products h4 {
-    font-size: 20px;
-}
-
-#products p {
-    font-size: 20px;
-    color: #828282;
-}
-
 
 #products .card {
     box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
@@ -184,52 +102,43 @@ header .row {
 }
 
 /*---------Testimonial Styles------*/
-#testimonials h2 {
-    font-size: 36px;
-}
-
-#testimonials .line {
-    border: 4px solid #3774DF;
-    border-radius: 8px 8px 0px 0px;
-    background-color: #3774DF;
-    margin: 0 0 30px 15px;
-    width: 90px;
-}
-
 
 #testimonials .slider-frame {
     background: #FFFFFF;
     box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.1);
     border-radius: 14px;
     height: 400px;
-   
 }
 
 #testimonials .controls {
- background-color: #0146C0;
+    background-color: #0146C0;
     border-radius: 25px;
     width: 38px;
-    height:38px;
+    height: 38px;
 }
+
 #testimonials span {
-     background-color: #0146C0;
+    background-color: #0146C0;
 }
 
 #testimonials span:hover {
     background: rgba(1, 70, 192, 0.1);
 }
 
-#testimonials a:hover  {
-  background: rgba(1, 70, 192, 0.1);
+#testimonials a:hover {
+    background: rgba(1, 70, 192, 0.1);
 }
+
 #testimonials .arrows .active:hover {
     background: rgba(1, 70, 192, 0.1);
 }
+
 #testimonials .arrows .active {
     background-color: #0146C0;
     border-radius: 25px;
     width: 5%;
-  }
+}
+
 #testimonials .arrows li:hover {
     background: #0146C0;
 }
@@ -237,70 +146,36 @@ header .row {
 #testimonials .arrows li {
     background: rgba(196, 196, 196, 0.27);
     border-radius: 25px;
-    width: 5%;   
-}
-#testimonials .containter {
-    height: 627px;
+    width: 5%;
 }
 
 /*---------Contact Styles------*/
-.contact-section button {
-    background-color: #0146C0;
-}
-
-.contact-section input,
-.contact-section textarea {
-    border: 1px solid #0146C0;
-    margin-bottom: 37px;
-}
-
-#contact h2 {
-    font-size: 36px;
-    color: #4F4F4F;
-    margin-bottom: 30px;
-}
 
 #contact::placeholder {
     color: #BDBDBD;
-    font-size: 16px;
 }
 
 #contact .row {
     margin-bottom: 67px;
     margin-top: 213px;
-
 }
 
-/*---------Footer Styles------*/
-#footer {
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    background-color: rgba(1, 70, 192, 0.87);
-    width: 100vw;
-    overflow: auto;
-}
-
-#footer .row {
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-#footer h3 {
-    margin-top: 50px;
-}
-
-#footer p {
-    margin-bottom: 12px;
 }
 
 #footer ul {
     list-style-type: none;
     padding: 0 48px 0 0;
-}
-
-#footer span {
-    color: #B4CEFD;
-}
-
-hr {
-    border: 1px solid rgba(255, 255, 255, 0.19);
 }
